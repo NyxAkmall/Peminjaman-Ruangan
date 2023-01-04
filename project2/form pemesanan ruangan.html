@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pemesanan ruangan</title>
+</head>
+<body>
+    <h3 style="text-align: center;">
+        eRuang - Sistem Peminjaman Ruangan Nurul Fikri 
+    </h3>
+    <header>
+        <table border="0">
+            <tr>
+                <td width="0"><a href=""> Home</td>
+                <td>|</td>
+                <td width="0"><a href=""> Fasilitas</td>
+                <td>|</td>
+                <td width="0"><a href=""> Booking</td>
+                <td>|</td>
+                <td width="0"><a href=""> Berita</td>
+                <td>|</td>
+                <td width="0"><a href=""> Tentang kami</td>
+                <td width="650">|</td>
+                <td></td>
+                <td><form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <center>
+                        <td>
+                        <button class="openBtn" onclick="openSearch()"><svg style="height: 10px; width: 10px;" viewbox="0 0 24 24">
+                        <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" fill="#000000">
+                        </path></svg></button></center>
+                    </td>
+                  </form></td>
+                <td>
+					<a class="nav-link" href="#">Login</a>
+				</td>
+            </tr>
+        </table>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div style="border-style: solid;;">
+        <p style="text-align: right;"><a href="#"><u>Home</u></a>> isi loker</p>
+        <fieldset style="border-width: 1px;">
+            <legend>Booking ruangan</legend>
+            <form method="GET" action="thankyou.html"></form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="name">Nama peminjam</label></td>
+                    <td>: <input type="text" id="name"></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr >
+                    <td><label for="Bank">Nama ruangan</label></td>
+                    <td>:<input type="text" list="bank" id="Bank">
+                    <datalist id="bank">
+                        <option value="Ruangan aula">
+                        <option value="Ruangan gor badminton">
+                        <option value="Ruangan lab komputer">
+                    </datalist></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="deskripsi">Deskripsi Kegiatan</label></td>
+                    <td>: <textarea type="deskripsi" id="deskripsi"></textarea></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="fasilitas">Fasilitas tambahan</label></td>
+                    <td>:<input type="checkbox" id="layar" ><label for="layar">layar besar</label></td>
+                    <td><input type="checkbox" id="katering"><label for="katering">katering</label></td>
+                    <td><input type="checkbox" id="snack"><label for="snack">snack</label></td>
+                    <td><input type="checkbox" id="bangku"><label for="bangku">bangku</label></td>
+                    <td><input type="checkbox" id="meja"><label for="meja">meja</label></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="date">Tanggal pinjam</label></td>
+                    <td>: <input type="date" id="date"></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="number">kontak person</label></td>
+                    <td>: <input type="number" id="number"></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="number">Telepon/HP</label></td>
+                    <td>: <input type="number" id="number"></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td>: <input type="email" id="email"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+    </div>
+    <hr>
+    <p>Develop By Mahasiswa STT-NF @2023 </p>
+</body>
+</html>
